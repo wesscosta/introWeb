@@ -1,0 +1,95 @@
+<style type="text/css">
+
+			body{
+				background-color: #CCC; 
+				font-family: Tahoma,Arial;			
+			}
+			/*
+			.copy{
+				font-style: italic;
+				font-weight: bold;
+			}
+			 ul.navbar li {
+			    background: white;
+			    margin: 0.5em 0;
+			    padding: 0.3em;
+			    border-right: 1em solid black 
+			}
+		  	ul.navbar a {
+		 	   text-decoration: none 
+			}
+*/
+			#container{
+				width:100%;
+				font-size: 16px;
+			}
+
+			#cabecalho{ 
+				background-color:blue;
+			}	
+
+			#menuHorizontal{
+				text-align: right;
+			}
+
+			#fundo{
+				background-image: url(img/tv.png);	
+				width: 709px; /* Largura da DIV */
+				height: 472px; /* Altura da DIV */
+
+			}
+
+			#menuVertical{
+				width: 240px; /* Largura da DIV */
+				height: 350px; /* Altura da DIV */
+
+				/* Posiciona no meio, tanto em relação a esquerda como ao topo */
+				left: 50%; 
+				top: 50%;
+				position: absolute; /* posição absoluta ao elemento pai, neste caso o BODY */
+				
+				/* A margem a esquerda deve ser menos a metade da largura */
+				/* A margem ao topo deve ser menos a metade da altura */
+				/* Fazendo isso, centralizará a DIV */
+				margin-left: -400px;
+				margin-top: -200px;
+
+				color:black;
+				text-align: left; /* Centraliza o texto */
+				z-index: 1000; /* Faz com que fique sobre todos os elementos da página */
+				
+			}
+
+			
+
+			#conteudo{
+
+				height:400;
+				width:400px;
+				margin-top: -450px;	
+				margin-left: 30px;					 
+				float:left;
+			}
+
+			#rodape{
+				background-color:#ccc;
+				text-align:center;
+				width: 100%;
+				height: 50px;
+				text-align: center;
+				position: absolute;
+				bottom:0;
+			}
+
+
+			h1{
+				text-align: center;
+				font-size: 2em;
+			}
+
+			li:hover{
+    			background-color: black;
+    			text-align: center;
+    			<script>
+
+			}

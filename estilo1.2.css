@@ -1,0 +1,75 @@
+body{
+	background-color: white;
+	font-size: 16px;
+	background: url("http://st.gde-fon.com/wallpapers_original/185893_most_priroda_les_propast_2560x1440_www.Gde-Fon.com.jpg") top center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+header{
+/*	background-color: rgba();*/
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+	box-shadow: 0px 20px 30px #888;
+	text-shadow: 0px 1px 50px orange;
+	margin: 0 auto;	
+	height: 100px;
+	width: 600px;
+}
+
+.caixa{
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid white;
+	width: 110px;
+	margin-top: 5px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto; 
+	display: inline-block;
+}
+
+#menuHorizontal{
+	text-align: right;
+	margin: 40px 30px 0px 10px;
+	font-size: 1.1em;
+
+}
+
+#menuAulas{
+	width: 100px;
+	text-align: center;
+	list-style-type: none;	
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	/*margin: 0 auto;*/
+	display: inline-block;
+	
+}
+
+ul li a, ul li a:visited {
+	display:block;
+	color:#fff;
+	list-style-type: none;	
+	text-decoration:none;
+	}
+
+#menuAulas h1	{color: white;}
+#menuAulas li 	{text-decoration: none; }
+#menuAulas li:hover		{border: 1px solid white; background-color:#000; color: white;}
+#menuAulas li:active	{background: red;}
+#menuAulas li:link 		{color:black;}
+#menuAulas li:visited	{color:black;}
+			
+#canvas{border: 1px solid white;}
+					
+
+footer{
+	color: white;
+	position: absolute;
+	bottom: 0;
+}
+
+
