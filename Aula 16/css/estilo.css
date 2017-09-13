@@ -1,0 +1,94 @@
+.box{
+	background: url(../img/camera.png);
+	width: 300px;
+	height: 300px;
+	margin:50px; 
+	box-sizing: border-box;
+	box-shadow: 10px 10px 5px #888;
+	text-align: justify;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.box1{
+	background: linear-gradient(yellow,red);
+	width: 300px;
+	height: 300px;
+	margin:50px; 
+	box-sizing: border-box;
+	box-shadow: 10px 10px 5px #888;
+	text-align: justify;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.box h1{
+	background: rgba(255, 255, 255, 0.5);
+	text-shadow: 3px 3px 5px orange;
+}
+
+
+
+.caixa{
+	margin: 100px 30px 50px 150px;
+	
+
+}
+
+.box2, .box3{
+	width: 400px;
+	height: 150px;
+	display: inline-block;
+	color: white;
+}
+
+.box2 {
+	background: #ff9999;
+}
+
+.box3 {
+	background: #cccc66;
+}
+
+#box2, #box3{
+	text-align: center;
+	border:  2px dashed white;
+	width: 260px;
+	height: 70px;
+	margin: 15px 20px; 
+	padding: 25px 47px;
+}
+
+
+
+.sombra1:before, .sombra1:after{
+  position:absolute;
+  content:"";
+  bottom:400px;
+  left:160px;
+  top:25%;
+  width:17%;
+  z-index:-1;
+  box-shadow: 0px 20px 15px #9B7468;
+  transform: rotate(-6deg);
+}
+
+.sombra1:after{
+
+  right: 820px;
+  left: auto;
+  transform: rotate(6deg);
+}
+
+
+.sombra2:before{
+  position:absolute;
+  content:"";
+  bottom:410px;
+  left:740px;
+  top:25%;
+  width:27%;
+  z-index:-1;
+  box-shadow: 0px 20px 15px #9B7468;
+  transform: rotate(-6deg);
+}

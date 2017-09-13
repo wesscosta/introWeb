@@ -1,0 +1,160 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Aula13</title>
+		<meta charset="UTF-8">
+		
+		<script type="text/javascript">
+			/**
+			* @preserve HTML5 Shiv 3.7.3 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
+			*/
+			!function(a,b){function c(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function d(){var a=t.elements;return"string"==typeof a?a.split(" "):a}function e(a,b){var c=t.elements;"string"!=typeof c&&(c=c.join(" ")),"string"!=typeof a&&(a=a.join(" ")),t.elements=c+" "+a,j(b)}function f(a){var b=s[a[q]];return b||(b={},r++,a[q]=r,s[r]=b),b}function g(a,c,d){if(c||(c=b),l)return c.createElement(a);d||(d=f(c));var e;return e=d.cache[a]?d.cache[a].cloneNode():p.test(a)?(d.cache[a]=d.createElem(a)).cloneNode():d.createElem(a),!e.canHaveChildren||o.test(a)||e.tagUrn?e:d.frag.appendChild(e)}function h(a,c){if(a||(a=b),l)return a.createDocumentFragment();c=c||f(a);for(var e=c.frag.cloneNode(),g=0,h=d(),i=h.length;i>g;g++)e.createElement(h[g]);return e}function i(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return t.shivMethods?g(c,a,b):b.createElem(c)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+d().join().replace(/[\w\-:]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(t,b.frag)}function j(a){a||(a=b);var d=f(a);return!t.shivCSS||k||d.hasCSS||(d.hasCSS=!!c(a,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),l||i(a,d),a}var k,l,m="3.7.3",n=a.html5||{},o=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,p=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,q="_html5shiv",r=0,s={};!function(){try{var a=b.createElement("a");a.innerHTML="<xyz></xyz>",k="hidden"in a,l=1==a.childNodes.length||function(){b.createElement("a");var a=b.createDocumentFragment();return"undefined"==typeof a.cloneNode||"undefined"==typeof a.createDocumentFragment||"undefined"==typeof a.createElement}()}catch(c){k=!0,l=!0}}();var t={elements:n.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video",version:m,shivCSS:n.shivCSS!==!1,supportsUnknownElements:l,shivMethods:n.shivMethods!==!1,type:"default",shivDocument:j,createElement:g,createDocumentFragment:h,addElements:e};a.html5=t,j(b),"object"==typeof module&&module.exports&&(module.exports=t)}("undefined"!=typeof window?window:this,document);
+		</script>
+		
+		<style type="text/css">
+			body{
+				background:#F0F0F0;
+				
+			}
+
+			a{
+				text-decoration:none;
+			}
+			
+			a:link{
+				color:black;
+			}
+			
+			a:visited{
+				color:black;
+			}
+			
+			a:hover{
+				color:#884726;
+				border: 1px solid red;
+				background-color:yellow;
+			}
+			
+			a:active{
+				color:black;
+			}
+			
+			header{
+				text-align:center;
+
+			}
+
+			
+			nav{
+	
+				width:11%;
+				height:500px;
+				border-right: 1px solid black;
+				display: inline-block;
+				margin-right:10px;
+			}
+			
+			article{
+				width:64%;	
+				display: inline-block;
+				margin-right:10px;	
+				text-align: justify;			
+			}
+			
+			aside{
+
+				border-left: 1px solid black;
+				font-size:19px;
+				height:400px;
+				width:20%;
+				display: inline-block;
+
+			}
+			
+			footer{
+				text-align:center;
+				border-top: 1px solid black;
+				margin-top: 2px;
+				height:50px;
+			}
+							
+		</style>
+		
+
+	</head>
+	<body>
+	
+		<header>
+			<h1>Aula13</h1>
+			<span>Atualizado em:<time datetime="2017-07-12">12/07/2017</time></span>
+		</header>
+		<section>
+			<nav>
+				<section id="top">
+					<ul>
+						<li><strong><a href="https://www.google.com.br">Google</a></strong></li>
+						<li><strong><a href="https://www.facebook.com/">FACEBOOK</a></strong></li>
+						<li><Strong><a href="http://libra.ifpi.edu.br/">IFPI</a></Strong></li>
+						<li><Strong><a href="weslleycosta.esy.es">SITE</a></strong></li>
+					</ul>
+
+				</section>	
+				<section id="down">
+					<!--// CUSTOM NOTEPAD //-->
+							
+					<div class="notepad-slider">
+						<form action="">
+							<textarea name="" id="inputTextArea" cols="15" rows="20"></textarea>
+						</form>
+					<!--/div>
+					<div class="notepad-btn">
+						<i><img src="https://next2you.nextel.com.br/wp-content/themes/dante/images/notepad-icon.png" alt=""></i>
+						<div class="vertical-text">Bloco de Notas</div>
+					</div-->
+
+							<script type='text/javascript' src='https://next2you.nextel.com.br/wp-content/themes/dante-child/js/custom-script.js'></script>
+							<script type='text/javascript' src='https://next2you.nextel.com.br/wp-content/themes/dante/js/custom-notepad.js'></script>
+				</section>	
+			</nav>
+			
+			<article>
+				<p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.</p>
+
+				<p>O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.</p>
+
+				<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).</p>
+
+				<p>Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes. Se você pretende usar uma passagem de Lorem Ipsum, precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto. Todos os geradores de Lorem Ipsum na internet tendem a repetir pedaços predefinidos conforme necessário, fazendo deste o primeiro gerador de Lorem Ipsum autêntico da internet. Ele usa um dicionário com mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para gerar um Lorem Ipsum com aparência razoável, livre de repetições, inserções de humor, palavras não características, etc.</p>
+
+			</article>
+			
+			
+			<aside>
+				<h3>Links</h3>
+				<ul>
+					<li><big><a href="Aula 01\ProjetoWeb\index.html" target="_blank">Aula 01</a></big></li>
+					<li><big><a href="Aula 02\index.html" target="_blank">Aula 02</a></big></li>
+					<li><big><a href="aula 03\projeto.html" target="_blank">Aula 03</a></big></li>
+					<li><big><a href="Aula 04\index.html" target="_blank">Aula 04</a></big></li>
+					<li><big><a href="Aula 05\formulario.html">Aula 05</a></big></li>
+					<li><big><a href="Aula 06\ProjetoFinal\index.html">Aula 06*</a></big></li>
+					<li><big><a href="Aula 07\MinhaPagina.html">Aula 07</a></big></li>
+					<li><big><a href="Aula 08\atividades.html" target="_blan"k>Aula 08</a></big></li>
+					<li><big><a href="Aula 09\fonte.html" target="_blan"k>Aula 09</a></big></li>
+					<li><big><a href="Aula 10\desafio.html" target="_blan"k>Aula 10</a></big></li>
+					<li><big><a href="Aula 11\atividades.html" target="_blan"k>Aula 11</a></big></li>
+					<li><big><a href="Aula 12\aula12.html" target="_blan"k>Aula 12</a></big></li>
+					<li><big><a href="Aula 13\aula13.html" target="_blan"k>Aula 13</a></big></li>	
+					<br>
+					<img src="img1.png" width="60%">			
+				</ul>
+			</aside>
+		</section>
+
+		
+		<footer>
+			<span class="copy"> Copyright &copy;</span> Todos os Direitos reservados.
+		</footer>
+		
+	</body>
+</html>

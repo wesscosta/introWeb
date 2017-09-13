@@ -1,0 +1,67 @@
+
+			.box{
+
+				width: 200px;
+				height: 200px;
+				margin-top:-6px; 
+				margin-left: -6px;
+				border: 1px solid black;
+				box-sizing: border-box;
+				display: inline-block;
+				}
+
+
+			#all{
+				margin:50px;
+				display:inline-block;
+			}
+
+			#um{
+				border-radius: 400px 0px 0px 0px;
+				display: inline-block;
+				background: red;
+			}
+
+			#dois{
+				border-radius: 0px 400px 0px 0px;
+				display: inline-block;
+				background: yellow;
+			}
+
+			#tres{
+				border-radius: 0px 0px 0px 400px;
+				display: inline-block;
+				background:green;
+			}
+
+			#quatro{
+				border-radius: 0px 0px 400px 0px;
+				display: inline-block;
+				background: blue;
+			}
+
+
+
+			#primeiro{
+				border-radius: 200px 400px 0px 400px;
+				display: inline-block;
+				background: red;
+			}
+
+			#segundo{
+				border-radius: 400px 200px 400px 0px;
+				display: inline-block;
+				background: yellow;
+			}
+
+			#terceiro{
+				border-radius: 400px 0px 400px 200px;
+				display: inline-block;
+				background:green;
+			}
+
+			#quarto{
+				border-radius: 0px 400px 200px 400px;
+				display: inline-block;
+				background: blue;
+			}

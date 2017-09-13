@@ -1,0 +1,77 @@
+.box{
+	width: 100px;
+	height: 100px;				
+	background: red;
+	left: 10px;
+	top: 10px;
+	position: relative;
+
+	/*
+	animation-name:minhaAnimacao;
+	animation-duration: 1s; 
+	animation-delay: 3s;
+	animation-iteration-count:4;
+	animation-direction: alternate;
+	*/
+	animation: minhaAnimacao 1s 3s 4 alternate;
+}
+
+.box:hover{
+	border:5px solid black;
+	transition: border 1s 1s;
+}
+
+@keyframes minhaAnimacao{
+	from{
+		left: 10px;
+	}
+
+	to{
+		left: 500px;
+		background: blue;
+		border-radius: 100px;
+	}
+
+}
+
+.desafio, .desafio2, .desafio3 , .desafio4, .desafio5{
+	width: 150px;
+	height: 150px;
+	top: 100px;
+	left: 100px;
+	position: relative;
+	display: inline-block;
+	animation:animacaoDesafio 4s 0.1s infinite;
+}
+
+.desafio2{left: 150px;}
+.desafio3{left: 200px;}
+.desafio4{left: 250px;}
+.desafio5{left: 300px;}
+
+.desafio:hover, .desafio2:hover, .desafio3:hover, .desafio4:hover, .desafio5:hover{
+	animation:animacaoDesafio 4s 0.1s infinite;	
+}
+
+.desafio:active, .desafio2:active, .desafio3:active, .desafio4:active, .desafio5:active{
+	border:10px solid black;
+	transition: border 1s 1s;
+	animation-play-state:paused;
+	animation:animacaoDesafio2 1s 3s infinite;	
+	background: white;
+}
+
+@keyframes animacaoDesafio{
+	0%  {background: red; transform:rotate(0deg)}
+	25%	{background: green; transform:rotate(90deg)}
+	50% {background: blue; transform:rotate(180deg)}	
+	75%	{background: orange; transform:rotate(270deg)}
+	100%{background: red; transform:rotate(360deg)}
+}
+
+@keyframes animacaoDesafio2{
+
+	from{background: black; }
+	to{top: 800px; }
+	
+}

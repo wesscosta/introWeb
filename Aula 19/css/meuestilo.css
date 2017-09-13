@@ -1,0 +1,41 @@
+/*.conteudo{
+	background: #DCDCDC;
+	border:2px solid blue;
+}
+
+.linha{
+	background: #FFEBCD;
+	border: 2px  solid black;
+}*/
+
+.coluna{
+/*	background: #87ceeb;*/
+	/*border: 2px solid black;*/
+
+	background: white;
+}
+img{
+	padding-top: 10px;
+
+
+}
+.a{
+	width: 400px;
+	height: 300px;
+}
+
+.b{
+	width: 440px;
+	height: 100px;
+}
+.c{	
+	width: 200px;
+	height: 100px;
+
+}
+
+.d{
+	width: 150px;
+	height: 100px;
+
+}
