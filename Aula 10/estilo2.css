@@ -1,0 +1,16 @@
+.galeria{
+	background: #d6d6d6
+	
+}
+
+.galeria p{
+	clear:both;
+}
+
+.imagem{
+	float: right;
+	padding: 10px;
+	float: left;
+	background: White;
+	margin: 3px;
+}
